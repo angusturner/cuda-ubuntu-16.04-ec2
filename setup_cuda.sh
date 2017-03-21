@@ -44,4 +44,4 @@ echo "Cleaning up..."
 sudo rm -rf cuda cuda_8.0.run extracts nvidia_driver.run
 
 # Installing toolkit
-sudo apt-get install nvidia-cuda-toolkit
+# sudo apt-get install nvidia-cuda-toolkit
