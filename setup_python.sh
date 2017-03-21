@@ -10,12 +10,6 @@ then
 	chmod +x conda_install.sh
     bash conda_install.sh
 fi
-source ~/.zshrc
-source ~/.bashrc
 
+# create cuda environment in Conda
 conda create -n cuda python=3.6 anaconda numpy scipy matplotlib
-source activate cuda
-
-conda install pytorch torchvision cuda80 -c soumith
-pip install tqdm librosa pretty_midi
-
