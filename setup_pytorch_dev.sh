@@ -1,5 +1,5 @@
 # export conda path
-export CMAKE_PREFIX_PATH=/home/ubuntu/miniconda3
+CMAKE_PREFIX_PATH=/home/ubuntu/miniconda3/envs/cuda
 
 # install (optional) deps.
 conda install numpy mkl setuptools cmake gcc cffi
