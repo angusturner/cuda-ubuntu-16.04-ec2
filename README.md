@@ -9,9 +9,10 @@
 
 ## Python Installation
 1. Run ```./setup_python.sh```
+	- NOTE: you may have to run a 2nd time after doing ```~/.bashrc```
 2. Run ```source activate cuda``` to enter conda environment
 3. (optional) Run ```./pip_deps.sh```
-4. Run ```./setup_torch.sh```
+4. Run ```./setup_pytorch.sh```
 
 
 ## NOTES
